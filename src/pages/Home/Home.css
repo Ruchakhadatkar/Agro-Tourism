@@ -1,0 +1,53 @@
+.hero-container {
+  margin: 0;
+}
+
+.carousel-1 {
+  background-image: url(../../Assets/hero-img1.jpg);
+  /* background-attachment: fixed; */
+  width: 100%;
+  height: 100vh;
+  background-position: center; /* Center the image horizontally */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.carousel-2 {
+  background-image: url(../../Assets/hero-img-2.jpg);
+  /* background-attachment: fixed; */
+  width: 100%;
+  height: 100vh;
+
+  background-position: center; /* Center the image horizontally */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.carousel-3 {
+  background-image: url(../../Assets/hero6.jpg);
+  /* background-attachment: fixed; */
+  width: 100%;
+  height: 100vh;
+
+  background-position: center; /* Center the image horizontally */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.carousel-4 {
+  background-image: url(../../Assets/hero-img1.jpg);
+  /* background-attachment: fixed; */
+  width: 100%;
+  height: 100vh;
+
+  background-position: center; /* Center the image horizontally */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.carousel-5 {
+  background-image: url(../../Assets/hero-img-2.jpg);
+  /* background-attachment: fixed; */
+  width: 100%;
+  height: 100vh;
+
+  background-position: center; /* Center the image horizontally */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
