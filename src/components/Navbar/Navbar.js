@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="index-page">
       <header
         id="header"
-        className={`header d-flex align-items-center position-relative ${
+        className={`header d-flex align-items-center position-absolate ${
           mobileNavActive ? "mobile-nav-active" : ""
         }`}
       >
@@ -48,7 +48,7 @@ const Navbar = () => {
             <i
               className="mobile-nav-toggle d-xl-none bi bi-list"
               onClick={handleMobileNavToggle}
-              style={{marginTop:"10px", color:"#2d465e"}}
+              style={{ marginTop: "10px", color: "#2d465e" }}
             >
               <GiHamburgerMenu />
             </i>
