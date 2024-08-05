@@ -1,0 +1,123 @@
+.activity-container{
+    margin: 3rem 6rem;
+}
+
+
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.team .member {
+  position: relative;
+}
+.container .member {
+  width: 25%;
+}
+
+.section-title h5 {
+  margin: 0;
+  /* text-transform: uppercase; */
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  line-height: 34px;
+  cursor: pointer;
+}
+.section-title h2 {
+  margin: 0;
+  color: #2d465e;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  line-height: 1em;
+  cursor: pointer;
+
+
+}
+.section-title h2:hover{
+  color: var(--accent-color);
+
+}
+.section-title .activity-info {
+  margin: 2rem 20rem;
+  margin-bottom: 5rem;
+  font-family: var(--thm-font);
+  color: #212529;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  
+}
+
+.team .member .member-img {
+  margin: 0 42px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 4px solid var(--background-color);
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .team .member .member-img {
+    margin: 0 60px;
+  }
+}
+
+.team .member .member-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.team .member .member-img .social {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding-bottom: 20px;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.team .member .member-img .social a {
+  transition: 0.3s;
+  color: var(--contrast-color);
+  font-size: 20px;
+  margin: 0 8px;
+}
+
+.team .member .member-img .social a:hover {
+  color: var(--accent-color);
+}
+
+.team .member .member-info {
+  margin-top: 20px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 24px;
+}
+
+.team .member .member-info h4 {
+  color: #2d465e;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.team .member .member-info h4:hover {
+  color: #116530;
+}
+
+.team .member:hover .member-img .social {
+  padding-bottom: 0;
+  visibility: visible;
+  opacity: 0.5;
+}

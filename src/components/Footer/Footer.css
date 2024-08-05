@@ -30,6 +30,9 @@
     letter-spacing: 1px;
     font-family: var(--heading-font);
   }
+  .footer .logo span:hover{
+    color: var(--accent-color);
+  }
   
   .footer .footer-about p {
     font-size: 14px;
@@ -43,16 +46,20 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+    border: 1px solid #116530 ;
     font-size: 16px;
-    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    color: #116530;
     margin-right: 10px;
     transition: 0.3s;
+    
   }
   
   .footer .social-links a:hover {
-    color: var(--accent-color);
+    color: #ffffff;
+    border: none;
     border-color: var(--accent-color);
+    background-color: #116530;
+
   }
   
   .footer h4 {
