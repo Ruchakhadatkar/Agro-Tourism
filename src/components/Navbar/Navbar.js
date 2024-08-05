@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [mobileNavActive, setMobileNavActive] = useState(false);
+  const navigate = useNavigate();
 
   const handleMobileNavToggle = () => {
     setMobileNavActive(!mobileNavActive);
+  };
+
+  const handleNavigation = (path) => {
+    navigate(path);
+    setMobileNavActive(false); // Optionally close mobile nav after navigation
   };
 
   return (
@@ -18,31 +25,41 @@ const Navbar = () => {
         }`}
       >
         <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-          <a href="index.html" className="logo d-flex align-items-center">
+          <a href="/" className="logo d-flex align-items-center">
             <h1 className="sitename">AgriCulture</h1>
           </a>
 
           <nav id="navmenu" className="navmenu">
             <ul>
               <li>
-                <a href="index.html" className="active">
+                <a href="#home" className="active" onClick={() => handleNavigation("/")}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="about.html">About Us</a>
+                <a href="#about" onClick={() => handleNavigation("/about")}>
+                  About Us
+                </a>
               </li>
               <li>
-                <a href="services.html">Activities</a>
+                <a href="#activities" onClick={() => handleNavigation("/activities")}>
+                  Activities
+                </a>
               </li>
               <li>
-                <a href="testimonials.html">Our Products</a>
+                <a href="#products" onClick={() => handleNavigation("/products")}>
+                  Our Products
+                </a>
               </li>
               <li>
-                <a href="blog.html">Gallery</a>
+                <a href="#gallery" onClick={() => handleNavigation("/gallery")}>
+                  Gallery
+                </a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="#contact" onClick={() => handleNavigation("/contact")}>
+                  Contact
+                </a>
               </li>
             </ul>
             <i
