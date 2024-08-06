@@ -1,21 +1,35 @@
-
 .services-2 {
   overflow: visible;
   margin-bottom: 200px;
 }
 
 .services-2 .section-title {
-  text-align: left;
+  text-align: center;
+  margin: 5rem 0;
+  margin-top: 7rem;
+}
+
+.services-2 .section-title h5 {
+  margin: 0;
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  line-height: 34px;
+  cursor: pointer;
 }
 
 .services-2 .section-title h2 {
-  color: color-mix(in srgb, var(--contrast-color), transparent 50%);
-  text-transform: uppercase;
-  font-size: 20px;
+  margin: 0;
+  color: #2d465e;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: var(--heading-font);
+  line-height: 1em;
+  cursor: pointer;
 }
-
-.services-2 .section-title p {
-  color: var(--contrast-color);
+.services-2 .section-title h2:hover {
+  color: var(--accent-color);
 }
 
 .services-2 .services-carousel-wrap {
@@ -108,13 +122,17 @@
 
 .services-2 .navigation-prev i,
 .services-2 .navigation-next i {
-  font-size: 2rem;
+  font-size: 18px;
+  border: none;
+  display: flex;
+  justify-content: center;
 }
 
 .services-2 .navigation-prev:hover,
 .services-2 .navigation-next:hover {
   background-color: var(--accent-color);
   color: var(--contrast-color);
+  border: none;
 }
 
 .services-2 .navigation-prev {
@@ -147,4 +165,8 @@
 
 .services-2 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color) !important;
+}
+.img-fluid {
+  height: 55vh;
+  width: 60vw;
 }
