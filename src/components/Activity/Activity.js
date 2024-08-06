@@ -53,7 +53,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Swimminng</h4>
               </div>
             </div>
             {/* <!-- End activity --> */}
@@ -72,7 +72,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Bird Watching</h4>
               </div>
             </div>
             {/* <!-- End activity --> */}
@@ -91,7 +91,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Trekking</h4>
               </div>
             </div>
             {/* <!-- End activity --> */}
@@ -110,7 +110,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Accommodation</h4>
               </div>
             </div>
             {/* <!-- End activity --> */}
@@ -129,7 +129,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Boating</h4>
               </div>
             </div>
             {/* <!-- End activity --> */}
@@ -148,7 +148,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Authentic Food</h4>
               </div>
             </div>
             {/* <!-- End activity --> */}
@@ -167,7 +167,7 @@ const Activity = () => {
                 </div>
               </div>
               <div class="member-info text-center">
-                <h4>Jungle Safari</h4>
+                <h4>Birthday Party </h4>
               </div>
             </div>
             {/* <!-- End activity --> */}

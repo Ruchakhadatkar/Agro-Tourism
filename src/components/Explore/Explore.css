@@ -1,49 +1,26 @@
-.explore-container {
-  width: 100%;
-  margin: 10rem 2rem;
-}
 
-/*--------------------------------------------------------------
-# Services 2 Section
---------------------------------------------------------------*/
 .services-2 {
   overflow: visible;
   margin-bottom: 200px;
 }
 
 .services-2 .section-title {
-  text-align: center;
+  text-align: left;
 }
 
 .services-2 .section-title h2 {
-  margin: 0;
-  color: #2d465e;
-  font-size: 34px;
-  font-weight: 700;
-  font-family: var(--heading-font);
-  line-height: 1em;
-  cursor: pointer;
-  margin-bottom: 5rem;
-}
-.section-title h2:hover {
-  color: var(--accent-color);
+  color: color-mix(in srgb, var(--contrast-color), transparent 50%);
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.services-2 .section-title h5 {
-  margin: 0;
-  /* text-transform: uppercase; */
-  color: var(--accent-color);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  line-height: 34px;
-  cursor: pointer;
-  margin-top: 3rem;
+.services-2 .section-title p {
+  color: var(--contrast-color);
 }
 
 .services-2 .services-carousel-wrap {
   position: relative;
-  /* margin-bottom: -200px; */
+  margin-bottom: -200px;
 }
 
 .services-2 .swiper-wrapper {
@@ -121,8 +98,8 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 9;
-  width: 38px;
-  height: 40px;
+  width: 46px;
+  height: 46px;
   background: var(--contrast-color);
   background-color: none;
   border: none;

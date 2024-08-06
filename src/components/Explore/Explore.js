@@ -1,22 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 import "./Explore.css";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
-import exploreImg1 from "../../Assets/explore-1.jpg";
-import exploreImg2 from "../../Assets/explore-img-2.jpg";
-import exploreImg3 from "../../Assets/explore-img-3.jpg";
-import exploreImg4 from "../../Assets//explore-img-4.jpg";
-import exploreImg5 from "../../Assets/explore-vegetable.jpg";
-import exploreImg6 from "../../Assets/garden.jpg";
+import exploreImg1 from "../../Assets/Explore/exploreImg.jpg";
 
-class Explore extends React.Component {
-  componentDidMount() {
-    new Swiper(".swiper-container", {
+const Explore = () => {
+  const swiperContainerRef = useRef(null);
+
+  useEffect(() => {
+    const swiperInstance = new Swiper(swiperContainerRef.current, {
       loop: true,
-      speed: 600,
+      speed: 500,
       autoplay: {
-        delay: 5000,
+        delay: 4000,
       },
       slidesPerView: "auto",
       pagination: {
@@ -39,66 +36,117 @@ class Explore extends React.Component {
         },
       },
     });
-  }
 
-  render() {
-    const images = [
-      { src: exploreImg1, title: "Harvesting & Innovations" },
-      { src: exploreImg2, title: "Organic Farming" },
-      { src: exploreImg3, title: "Plant Nursery" },
-      { src: exploreImg4, title: "Cattel Farming" },
-     
-    ];
+    return () => {
+      swiperInstance.destroy();
+    };
+  }, []);
 
-    return (
-      <div className="explore-container">
-        <section id="services-2" className="services-2 section">
-          <div className="container section-title">
-            <h5>Explore</h5>
-            <h2>Our Agro Tourism</h2>
-          </div>
+  return (
+    // Services 2 Section
+    <section id="services-2" className="services-2 section dark-background">
+      {/* Section Title */}
+      <div className="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Necessitatibus eius consequatur</p>
+      </div>
+      {/* End Section Title */}
 
-          <div className="services-carousel-wrap explore-main">
-            <div className="container">
-              <div className="swiper-container init-swiper">
-                <button className="navigation-prev js-custom-prev">
-                  <i className="bi bi-arrow-left-short">
-                    <FiArrowLeft />
-                  </i>
-                </button>
-                <button className="navigation-next js-custom-next">
-                  <i className="bi bi-arrow-right-short">
-                    <FiArrowRight />
-                  </i>
-                </button>
-                <div className="swiper-wrapper">
-                  {images.map((image, index) => (
-                    <div className="swiper-slide" key={index}>
-                      <div className="service-item">
-                        <div className="service-item-contents">
-                          <a href="#">
-                            <span className="service-item-category">We do</span>
-                            <h2 className="service-item-title">{image.title}</h2>
-                          </a>
-                        </div>
-                        <img
-                          src={image.src}
-                          alt="Service"
-                          className="img-fluid"
-                          style={{width:"100vw", height:"100%"}}
-                        />
-                      </div>
-                    </div>
-                  ))}
+      <div className="services-carousel-wrap">
+        <div className="container">
+          <div className="swiper" ref={swiperContainerRef}>
+            <button className="navigation-prev js-custom-prev">
+              <FiArrowLeft />
+            </button>
+            <button className="navigation-next js-custom-next">
+              <FiArrowRight />
+            </button>
+            <div className="swiper-wrapper">
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Planting</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
                 </div>
-                <div className="swiper-pagination"></div>
+              </div>
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Mulching</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Watering</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Fertilizing</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Harvesting</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Mowing</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="service-item">
+                  <div className="service-item-contents">
+                    <a href="#">
+                      <span className="service-item-category">We do</span>
+                      <h2 className="service-item-title">Seeding Plants</h2>
+                    </a>
+                  </div>
+                  <img src={exploreImg1} alt="Image" className="img-fluid" />
+                </div>
               </div>
             </div>
+            <div className="swiper-pagination"></div>
           </div>
-        </section>
+        </div>
       </div>
-    );
-  }
-}
+    </section>
+    // /Services 2 Section
+  );
+};
 
 export default Explore;
