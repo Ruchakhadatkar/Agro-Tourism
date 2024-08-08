@@ -32,6 +32,15 @@
   color: var(--accent-color);
 }
 
+.services-2 .section-title p {
+  margin: 3rem 17rem;
+  font-family: var(--thm-font);
+  color: #212529;
+  font-size: 16px;
+  line-height: 32px;
+  /* font-weight: 500; */
+}
+
 .services-2 .services-carousel-wrap {
   position: relative;
   margin-bottom: -200px;
