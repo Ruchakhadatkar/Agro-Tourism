@@ -1,6 +1,6 @@
 import React from "react";
 import "./Overview.css"
-import planOverview from "../../Assets/Plan-overview.jpg"
+import planOverview from "../../Assets/overview/Plan-overview.jpg"
 
 const Overview = () => {
   return (
