@@ -1,8 +1,6 @@
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
+
 .call-to-action {
-    padding: 80px 0;
+    padding: 240px 0;
     position: relative;
     clip-path: inset(0);
   }
@@ -32,7 +30,7 @@
   }
   
   .call-to-action h3 {
-    font-size: 28px;
+    font-size: 50px;
     font-weight: 700;
     color: var(--default-color);
   }
@@ -47,10 +45,10 @@
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 12px 40px;
-    border-radius: 5px;
+    padding: 10px 22px;
+    border-radius: 6px;
     transition: 0.5s;
-    margin: 10px;
+    margin: 36px;
     border: 2px solid var(--contrast-color);
     color: var(--contrast-color);
   }

@@ -20,7 +20,7 @@ const Overview = () => {
           >
             <div class="col-xl-10">
               <div class="text-center">
-                <h3>Overview View of our Agro Tourism</h3>
+                <h3>Overview of our Agro Tourism</h3>
                
                 <a class="cta-btn" href="#">
                   View All Images
