@@ -7,43 +7,45 @@ import { IoStar, IoArrowBack, IoArrowForward } from "react-icons/io5";
 import { FaCircle } from "react-icons/fa";
 import user1 from "../../Assets/Testimonials/testi-user1.jpg";
 import user2 from "../../Assets/Testimonials/testi-user2.jpg";
+import user3 from "../../Assets/Testimonials/testi-user3.png";
 import user4 from "../../Assets/Testimonials/testt-user4.jpg";
 import user5 from "../../Assets/Testimonials/testi-user5.jpg";
+
 
 const testimonials = [
   {
     name: "Ishika Gokhale",
     position: "Customer",
     quote:
-      "my name is rucha rttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+      "A perfect weekend getaway! The farm was serene, and the hands-on farming activities were a hit with the kids. We especially enjoyed picking fresh vegetables. We'll definitely be back!",
     image: user1,
   },
   {
     name: "Nishant Patil",
     position: "Customer",
     quote:
-      "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+      "An authentic rural experience! The fresh air, organic food, and the chance to connect with nature were exactly what we needed. Highly recommended.",
     image: user2,
   },
   {
     name: "Sharad Shinde",
     position: "Customer",
     quote:
-      "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
-    image: user1,
+      "A refreshing escape from city life. Our family learned so much about sustainable farming. The farm-fresh meals were a highlight, with flavors that truly stood out.",
+    image: user3,
   },
   {
     name: "Sanju Jain",
     position: "Customer",
     quote:
-      "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+      "An unforgettable experience! The farmstay was cozy, offering the perfect balance of comfort and rustic charm. A must-visit for nature lovers seeking a peaceful retreat.",
     image: user4,
   },
   {
     name: "Aarti Sune",
     position: "Customer",
     quote:
-      "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
+      "The perfect blend of relaxation and adventure. The evening bonfire was a delightful end to our day, with stories and songs under the stars. We can't wait to return soon!",
     image: user5,
   },
 ];
@@ -69,8 +71,6 @@ const Testimonials = () => {
             padding: "0",
             position: "relative",
             top: "1.2rem",
-
-            
           }}
         />
       </div>
@@ -101,6 +101,7 @@ const Testimonials = () => {
             className="col-lg-5 info"
             data-aos="fade-up"
             data-aos-delay="100"
+            
           >
             <h5>Reviews</h5>
             <h2>Testimonials</h2>
@@ -114,7 +115,7 @@ const Testimonials = () => {
             className="col-lg-7 user-info"
             data-aos="fade-up"
             data-aos-delay="200"
-            style={{ width: "756px", padding: "2rem ", paddingBottom:"4rem" }}
+            style={{ width: "756px", padding: "2rem ", paddingBottom: "4rem" }}
           >
             <Slider {...settings} className="testimonial-slider">
               {testimonials.map((testimonial, index) => (
@@ -137,8 +138,8 @@ const Testimonials = () => {
                       </div>
                     </div>
                   </div>
-                  <p 
-                  // style={{ textAlign: "center", padding: "1rem" }}
+                  <p
+                  style={{ textAlign: "center", padding: "1rem" }}
                   >
                     <span>{testimonial.quote}</span>
                   </p>

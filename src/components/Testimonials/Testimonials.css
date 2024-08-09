@@ -10,6 +10,7 @@
 
 .testimonials .info {
   width: 100%;
+  text-align: center;
 }
 
 .testimonials .info h5 {
@@ -47,7 +48,7 @@
 .testimonials .user-info {
   width: 62%;
   margin: 0 auto;
-  box-shadow: 1px 15px 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 3px 18px 32px 0 rgba(0, 0, 0, 0.08);
   background-color: var(--surface-color);
   transition: all ease 1s;
 }
@@ -111,10 +112,10 @@
 }
 
 .slick-dots li .slick-dot-custom {
-  font-size: 11px;
+  font-size: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 85%);
   transition: color 0.3s ease;
-  margin: 0;
+  margin: 0px;
 }
 
 .slick-dots .slick-active .slick-dot-custom {

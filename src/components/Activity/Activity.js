@@ -1,6 +1,24 @@
 import React from "react";
 import "./Activity.css";
-import activity1 from "../../Assets/activityImg-1.jpg";
+import jungleSafari from "../../Assets/Activities/activityImg-1.jpg";
+import swimming from "../../Assets/Activities/swimming.jpg";
+import birdWatching from "../../Assets/Activities/bird.jpg";
+import trekking from "../../Assets/Activities/trekkinggg.jpg";
+import accommodation from "../../Assets/Activities/accomodation.jpg";
+import boating from "../../Assets/Activities/boating.jpg";
+import authenticFood from "../../Assets/Activities/food.jpg";
+import birthdayParty from "../../Assets/Activities/bday.jpg";
+
+const activities = [
+  { name: "Jungle Safari", image: jungleSafari },
+  { name: "Swimming", image: swimming },
+  { name: "Bird Watching", image: birdWatching },
+  { name: "Trekking", image: trekking },
+  { name: "Accommodation", image: accommodation },
+  { name: "Boating", image: boating },
+  { name: "Authentic Food", image: authenticFood },
+  { name: "Birthday Party", image: birthdayParty }
+];
 
 const Activity = () => {
   return (
@@ -26,7 +44,7 @@ const Activity = () => {
                 data-aos-delay="100"
               >
                 <div className="member-img">
-                  <img src={activity1} className="img-fluid" alt="" />
+                  <img src={activity.image} className="img-fluid" alt={activity.name} />
                   <div className="social">
                     <a href="#">
                       <i className="bi bi-linkedin"></i>
@@ -34,7 +52,7 @@ const Activity = () => {
                   </div>
                 </div>
                 <div className="member-info text-center">
-                  <h4>{activity}</h4>
+                  <h4>{activity.name}</h4>
                 </div>
               </div>
             ))}
@@ -44,16 +62,5 @@ const Activity = () => {
     </div>
   );
 };
-
-const activities = [
-  "Jungle Safari",
-  "Swimming",
-  "Bird Watching",
-  "Trekking",
-  "Accommodation",
-  "Boating",
-  "Authentic Food",
-  "Birthday Party"
-];
 
 export default Activity;

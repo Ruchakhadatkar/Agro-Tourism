@@ -54,12 +54,11 @@ const Explore = () => {
         <h5>Explore Farming with</h5>
         <h2>Our Agre Tourism</h2>
         <p>
-          This form of tourism helps one stay with the farmer, engage oneself in
-          farming activities. It involves staying in a
-          farmhouse or separate guest house which will provide meals, organize
-          activities involving observing and participating in farming
-          operations. It is a leisure activity in an agricultural environment
-          with an opportunity to help farming while staying.
+          This form of tourism helps one stay with the farmer. It involves
+          staying in a farmhouse or separate guest house which will provide
+          meals, organize activities involving observing and participating in
+          farming operations. It is a leisure activity in an agricultural
+          environment with an opportunity to help farming while staying.
         </p>
       </div>
       {/* End Section Title */}
