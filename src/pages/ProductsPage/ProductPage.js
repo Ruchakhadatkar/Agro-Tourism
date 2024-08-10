@@ -1,14 +1,11 @@
 import React from "react";
+import "./ProductPage.css"
 
 const ProductPage = () => {
   return (
-    <div>
-      <h1>product</h1>
-      <h1>product</h1>
-      <h1>product</h1>
-      <h1>product</h1>
-
-    </div>
+   <div className="product-container">
+    
+   </div>
   );
 };
 
