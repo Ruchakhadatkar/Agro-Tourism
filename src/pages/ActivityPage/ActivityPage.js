@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./ActivityPage.css"
+import Activity from "../../components/Activity/Activity";
 
 const ActivityPage = () => {
   return (
-    <div>ActivityPage</div>
-  )
-}
+    <div className="activityPage">
+      <Activity />
+    </div>
+  );
+};
 
-export default ActivityPage
+export default ActivityPage;
