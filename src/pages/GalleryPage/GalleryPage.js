@@ -74,7 +74,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-about">
                 <img src={overview} className="img-fluid" alt="planoverview" />
                 <div className="portfolio-info">
-                  <h4>Over View of VISAVA</h4>
+                  <h4>Over View of Plan</h4>
                   <a
                     href={overview}
                     title="Overview"
@@ -88,7 +88,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-about">
                 <img src={plan} className="img-fluid" alt="Plan" />
                 <div className="portfolio-info">
-                  <h4>Plan</h4>
+                  <h4>Radiant View</h4>
                   <a
                     href={plan}
                     title="Plan"
@@ -102,7 +102,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-about">
                 <img src={aboutImg1} className="img-fluid" alt="About Image 1" />
                 <div className="portfolio-info">
-                  <h4>About Image 1</h4>
+                  <h4>Top view</h4>
                   <a
                     href={aboutImg1}
                     title="About Image 1"
@@ -131,7 +131,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                 <img src={gardening} className="img-fluid" alt="Gardening" />
                 <div className="portfolio-info">
-                  <h4>Gardening</h4>
+                  <h4>Nursery of Plants</h4>
                   <a
                     href={gardening}
                     title="Gardening"
@@ -159,7 +159,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
                 <img src={cows} className="img-fluid" alt="Cows" />
                 <div className="portfolio-info">
-                  <h4>Cows</h4>
+                  <h4>Cattle Farming</h4>
                   <a
                     href={cows}
                     title="Cows"
@@ -173,7 +173,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                 <img src={safari} className="img-fluid" alt="Safari" />
                 <div className="portfolio-info">
-                  <h4>Safari</h4>
+                  <h4>Eco-safari</h4>
                   <a
                     href={safari}
                     title="Safari"
@@ -201,7 +201,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
                 <img src={organicFarm} className="img-fluid" alt="Organic Farm" />
                 <div className="portfolio-info">
-                  <h4>Organic Farm</h4>
+                  <h4>Organic Farming</h4>
                   <a
                     href={organicFarm}
                     title="Organic Farm"
@@ -215,7 +215,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
                 <img src={harvestingInnov} className="img-fluid" alt="Harvesting Innovation" />
                 <div className="portfolio-info">
-                  <h4>Harvesting Innovation</h4>
+                  <h4>Harvesting & Innovation</h4>
                   <a
                     href={harvestingInnov}
                     title="Harvesting Innovation"
@@ -229,7 +229,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
                 <img src={Greenery} className="img-fluid" alt="Greenery" />
                 <div className="portfolio-info">
-                  <h4>Greenery</h4>
+                  <h4>Evergreen Surroundings</h4>
                   <a
                     href={Greenery}
                     title="Greenery"
@@ -243,7 +243,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                 <img src={Trekking} className="img-fluid" alt="Trekking" />
                 <div className="portfolio-info">
-                  <h4>Trekking</h4>
+                  <h4>Trekking Tour</h4>
                   <a
                     href={Trekking}
                     title="Trekking"
@@ -257,7 +257,7 @@ const GalleryPage = () => {
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                 <img src={Thali} className="img-fluid" alt="Thali" />
                 <div className="portfolio-info">
-                  <h4>Thali</h4>
+                  <h4>Authentic Fare</h4>
                   <a
                     href={Thali}
                     title="Thali"
