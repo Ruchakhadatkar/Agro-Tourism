@@ -1,14 +1,10 @@
 import React from "react";
 import "./GalleryPage.css";
 import { BsZoomIn } from "react-icons/bs";
-
 import overview from "../../Assets/overview/Plan-overview.jpg";
-import seeding from "../../Assets/Explore/exploreImg.jpg";
 import plan from "../../Assets/about.jpeg";
 import aboutImg1 from "../../Assets/AboutPage/about-1-img-1.jpg";
-import aboutImg2 from "../../Assets/AboutPage/about-1-img-2.jpg";
 import swimmingPool from "../../Assets/swimmingPool.jpg";
-import cattelfarming from "../../Assets/cow3.jpg";
 import gardening from "../../Assets/Explore/plant-nursery.jpg";
 import milkmachine from "../../Assets/milk-machine.jpg";
 import cows from "../../Assets/from-Cattle-Farming.jpg";
@@ -20,16 +16,10 @@ import Greenery from "../../Assets/farm-of-happiness-agro.jpg";
 import Trekking from "../../Assets/trekking-img1.jpeg";
 import Thali from "../../Assets/Maha-thali.jpg";
 
-
 const GalleryPage = () => {
   return (
     <div className="gallery-container">
       <section id="portfolio" class="portfolio section">
-        <div class="container section-title" data-aos="fade-up">
-          <h2></h2>
-        </div>
-        {/* <!-- End Section Title --> */}
-
         <div class="container">
           <div
             class="isotope-layout"
@@ -37,32 +27,13 @@ const GalleryPage = () => {
             data-layout="masonry"
             data-sort="original-order"
           >
-            <ul
-              class="portfolio-filters isotope-filters"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <li data-filter="*" class="filter-active">
-                All
-              </li>
-              <li data-filter=".filter-branding">About Visava</li>
-              <li data-filter=".filter-app">Products</li>
-              <li data-filter=".filter-product">Activities</li>
-            </ul>
-            {/* <!-- End Portfolio Filters --> */}
-
             <div
               class="row gy-4 isotope-container"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                <img
-                  src={overview}
-                  class="img-fluid"
-                  alt="planoverview"
-                  style={{ width: "100%", height: "60vh" }}
-                />
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app overview">
+                <img src={overview} class="img-fluid" alt="planoverview" />
                 <div class="portfolio-info">
                   <h4>Over View of VISAVA</h4>
                   <a
@@ -75,21 +46,11 @@ const GalleryPage = () => {
                       <BsZoomIn />
                     </i>
                   </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
                 </div>
               </div>
               {/* <!-- End Portfolio Item --> */}
 
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-                style={{ height: "45vh" }}
-              >
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product gardening">
                 <img src={gardening} class="img-fluid" alt="nursery" />
                 <div class="portfolio-info">
                   <h4>Plant Nursery</h4>
@@ -103,99 +64,66 @@ const GalleryPage = () => {
                       <BsZoomIn />
                     </i>
                   </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
                 </div>
               </div>
               {/* <!-- End Portfolio Item --> */}
 
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-                style={{ height: "38vh" }}
-              >
-                <img src={cows} class="img-fluid" alt="pool" />
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding cattleImg">
+                <img src={cows} class="img-fluid" alt="cows" />
                 <div class="portfolio-info">
-                  <h4>cattle farming</h4>
+                  <h4>Cattle Farming</h4>
                   <a
                     href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg"
                     title="Branding 1"
                     data-gallery="portfolio-gallery-branding"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
               {/* <!-- End Portfolio Item --> */}
 
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-                style={{ height: "40vh" }}
-              >
-                <img src={safari} class="img-fluid" alt="" />
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app jungle-safari">
+                <img src={safari} class="img-fluid" alt="jungle" />
                 <div class="portfolio-info">
-                  <h4>App 2</h4>
+                  <h4>Jungle Safari</h4>
                   <a
                     href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg"
                     title="App 2"
                     data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
               {/* <!-- End Portfolio Item --> */}
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product product1">
-                <img
-                  src={aboutImg1}
-                  class="img-fluid"
-                  alt=""
-                  style={{ height: "100vh" }}
-                />
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product aboutImg">
+                <img src={aboutImg1} class="img-fluid" alt="about" />
                 <div class="portfolio-info">
-                  <h4>Product 2</h4>
+                  <h4>Plan Overview</h4>
                   <a
                     href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg"
                     title="Product 2"
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
               {/* <!-- End Portfolio Item --> */}
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding cowsImg">
-                <img src={swimmingPool} class="img-fluid" alt="" />
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding swimming-pool">
+                <img src={swimmingPool} class="img-fluid" alt="pool" />
                 <div class="portfolio-info">
                   <h4>Swimming Pool</h4>
                   <a
@@ -204,14 +132,9 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-branding"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -227,36 +150,26 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
 
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product plan-sunset">
-                <img src={plan} class="img-fluid" alt="" />
+                <img src={plan} class="img-fluid" alt="scenery" />
                 <div class="portfolio-info">
-                  <h4>Sunset View</h4>
+                  <h4>Delightful Scenery</h4>
                   <a
                     href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
                     title="Product 3"
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -271,14 +184,9 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-app"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -294,14 +202,9 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -316,14 +219,9 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -331,21 +229,16 @@ const GalleryPage = () => {
               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product  greenery">
                 <img src={Greenery} class="img-fluid" alt="nature" />
                 <div class="portfolio-info">
-                  <h4>Harvesting & Innovations</h4>
+                  <h4>Rich greenery</h4>
                   <a
                     href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg"
                     title="Product 3"
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -360,14 +253,9 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -382,14 +270,9 @@ const GalleryPage = () => {
                     data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"
                   >
-                    <i class="bi bi-zoom-in"></i>
-                  </a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                  >
-                    <i class="bi bi-link-45deg"></i>
+                    <i class="bi bi-zoom-in">
+                      <BsZoomIn />
+                    </i>
                   </a>
                 </div>
               </div>

@@ -12,46 +12,69 @@
   text-align: center;
 }
 
-.portfolio .product1 {
+.portfolio .overview {
+  margin: 26px auto;
+  height: 60vh;
+}
+
+.portfolio .gardening {
+  margin: 26px auto;
+  height: 49vh;
+}
+
+.portfolio .cattleImg {
+  margin: 26px auto;
+  height: 42vh;
+}
+.portfolio .jungle-safari {
+  margin: 0px auto;
+  height: 43vh;
+}
+
+.portfolio .aboutImg {
   margin: -86px auto;
   height: 82vh;
 }
-.portfolio .cowsImg{
-    margin: -138px auto;
-    height: 40vh;
+.portfolio .cowsImg {
+  margin: -138px auto;
+  height: 40vh;
 }
-.portfolio .milkmachine{
-    margin: -250px auto;
-    height: 80vh;
+.portfolio .swimming-pool {
+  margin: -138px auto;
+  height: 40vh;
 }
-.portfolio .plan-sunset{
-    margin: 110px auto;
-    /* height: 80vh; */
+.portfolio .milkmachine {
+  margin: -250px auto;
+  height: 80vh;
 }
-.portfolio .dairy-products{
-    margin: -90px auto;
-    height: 50vh;
+.portfolio .plan-sunset {
+  margin: 110px auto;
+  /* height: 80vh; */
 }
-.portfolio .organic-farming{
-    margin: -190px auto;
-    height: 50vh;
+.portfolio .dairy-products {
+  margin: -90px auto;
+  height: 50vh;
 }
-.portfolio .food-thali{
-    margin: -85px auto;
-    height: 36vh;
+.portfolio .organic-farming {
+  margin: -190px auto;
+  height: 50vh;
 }
-.portfolio .greenery{
-    margin: -126px auto;
-    height: 38vh;
+.portfolio .food-thali {
+  margin: -85px auto;
+  height: 36vh;
 }
-.portfolio .trekking{
-    margin: 112px auto;
-    height: 51vh;
-    width: 61vw;
+.portfolio .greenery {
+  margin: -126px auto;
+  height: 38vh;
 }
-.portfolio .harvesting{
-    margin: 88px auto;
-    height: 54vh;
+.portfolio .trekking {
+  margin: 112px auto;
+  height: 51vh;
+  width: 61vw;
+}
+.portfolio .harvesting {
+  margin: 88px auto;
+  height: 54vh;
 }
 
 .portfolio .portfolio-filters li {
@@ -112,13 +135,6 @@
   padding-right: 50px;
 }
 
-/* .portfolio .portfolio-item .portfolio-info p {
-    color: color-mix(in srgb, var(--default-color), transparent 30%);
-    font-size: 14px;
-    margin-bottom: 0;
-    padding-right: 50px;
-  } */
-
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
@@ -144,6 +160,91 @@
   opacity: 0.8;
   bottom: 0;
 }
-.portfolio img{
-    height: 100%;
+.portfolio img {
+  height: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .portfolio
+    .overview
+    .portfolio.gardening
+    .portfolio
+    .cattleImg
+    .portfolio
+    .jungle-safari
+    .portfolio
+    .cowsImg,
+  .portfolio .swimming-pool,
+  .portfolio .milkmachine,
+  .portfolio .plan-sunset,
+  .portfolio .dairy-products,
+  .portfolio .organic-farming,
+  .portfolio .food-thali,
+  .portfolio .greenery,
+  .portfolio .trekking,
+  .harvesting {
+    display: block;
+    margin: 10px auto;
+    height: 50%;
+    width: 90%;
+  }
+  .portfolio .gardening {
+    margin: 0px auto;
+    width: 90%;
+    height: 50%;
+  }
+  .portfolio .overview,
+  .portfolio .cattleImg {
+    width: 90%;
+    height: 50%;
+    /* display: block; */
+  }
+  .portfolio .jungle-safari {
+    width: 90%;
+    /* margin: 0px auto; */
+  }
+  .portfolio .aboutImg {
+    width: 90%;
+    height: 50%;
+  }
+  .portfolio .harvesting {
+    margin: 8px auto;
+    height: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio .overview img,
+  .portfolio .gardening img,
+  .portfolio .cattleImg img,
+  
+  /* .portfolio .aboutImg img, */
+  .portfolio .cowsImg img,
+  .portfolio
+    .swimming-pool img ,
+  .portfolio .milkmachine img,
+  .portfolio .plan-sunset img,
+  .portfolio .dairy-products img,
+  .portfolio .organic-farming img,
+  .portfolio .food-thali img,
+  .portfolio .greenery img,
+  .portfolio .trekking img,
+  .portfolio .harvesting img {
+    /* display: block; */
+    margin: 0px auto;
+    height: 80%;
+    width: 100%;
+  }
+  .portfolio .aboutImg img {
+    width: 100%;
+    height: 30%;
+    margin: 90px auto;
+    /* margin-top: 90px; */
+  }
+  .portfolio .jungle-safari img {
+    width: 100%;
+    height: 90%;
+    margin: 0px;
+  }
 }

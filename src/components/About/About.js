@@ -4,8 +4,13 @@ import { PiTractorBold } from 'react-icons/pi'
 import { FaCow } from 'react-icons/fa6'
 import { GiFruitBowl } from 'react-icons/gi'
 import { RiPlantLine } from 'react-icons/ri'
+import { useNavigate } from 'react-router-dom'
 
 const About = () => {
+  const navigate = useNavigate()
+  function handleLearnmore (){
+    navigate("/about")
+  }
   return (
     <div className="about-container">
     {/* <!-- About Section --> */}
@@ -25,7 +30,7 @@ const About = () => {
               don't even have to leave your villa to have a full day at the
               destination.
             </p>
-            <a href="#" class="read-more">
+            <a href="#" class="read-more"  onClick={handleLearnmore()}>
               <span>Learn More</span>
               <i class="bi bi-arrow-right"></i>
             </a>

@@ -1,7 +1,5 @@
 import React from "react";
 import "./AboutPage.css";
-import aboutImg1 from "../../Assets/AboutPage/about-1-img-1.jpg";
-import aboutImg2 from "../../Assets/AboutPage/about-1-img-2.jpg";
 import overview from "../../Assets/overview/Plan-overview.jpg";
 
 const AboutPage = () => {
