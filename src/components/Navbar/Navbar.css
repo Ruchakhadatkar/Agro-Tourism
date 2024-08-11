@@ -80,7 +80,7 @@ h6 {
 
 /* PHP Email Form Messages
   ------------------------------*/
-.php-email-form .error-message {
+/* .php-email-form .error-message {
   display: none;
   background: #df1529;
   color: #ffffff;
@@ -128,11 +128,11 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* Pulsating Play Button
   ------------------------------*/
-.pulsating-play-btn {
+/* .pulsating-play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(
@@ -210,7 +210,7 @@ h6 {
     transform: scale(1, 1);
     opacity: 0;
   }
-}
+} */
 
 /*--------------------------------------------------------------
   # Global Header
@@ -221,7 +221,6 @@ h6 {
   padding: 20px 0;
   transition: all 0.5s;
   z-index: 997;
-  /* background-color: transparent; */
   position: fixed;
   width: 100%;
 }
@@ -251,6 +250,16 @@ h6 {
   # Navigation Menu
   --------------------------------------------------------------*/
 /* Navmenu - Desktop */
+
+.navmenu ul {
+  height: 45%;
+  /* width: 50vw; */
+}
+.navmenu ul li{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;

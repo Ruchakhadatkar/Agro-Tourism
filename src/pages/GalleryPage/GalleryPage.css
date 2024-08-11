@@ -133,6 +133,7 @@
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
@@ -198,11 +199,11 @@
   .portfolio .cattleImg {
     width: 90%;
     height: 50%;
-    /* display: block; */
+    margin: 0 auto;
   }
   .portfolio .jungle-safari {
     width: 90%;
-    /* margin: 0px auto; */
+    margin: 0px auto;
   }
   .portfolio .aboutImg {
     width: 90%;
@@ -245,6 +246,60 @@
   .portfolio .jungle-safari img {
     width: 100%;
     height: 90%;
-    margin: 0px;
+    margin: 0px auto;
+  }
+}
+
+
+
+
+.portfolio .portfolio-filters li.filter-active {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+
+
+
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+}
+
+.portfolio-filters li {
+  margin: 5px; /* Adjust margin for better spacing on smaller screens */
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 50px;
+  color: #555;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  flex: 1; /* Allows each item to grow and shrink based on screen size */
+  text-align: center;
+  min-width: 100px; /* Ensures a minimum width for each item */
+  max-width: 200px; /* Prevents items from becoming too wide */
+}
+
+.portfolio-filters li.filter-active,
+.portfolio-filters li:hover {
+  color: #fff;
+  background: #007bff;
+}
+
+@media (max-width: 768px) {
+  .portfolio-filters li {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Smaller font size on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-filters li {
+    padding: 6px 12px; /* Further adjustment for very small screens */
+    font-size: 12px; /* Smaller font size on mobile */
   }
 }
