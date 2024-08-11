@@ -250,15 +250,10 @@
   }
 }
 
-
-
-
 .portfolio .portfolio-filters li.filter-active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
-
-
 
 .portfolio-filters {
   display: flex;
