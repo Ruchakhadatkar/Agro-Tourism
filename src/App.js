@@ -22,7 +22,7 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }
