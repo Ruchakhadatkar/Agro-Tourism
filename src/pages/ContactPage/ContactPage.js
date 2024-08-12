@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./ContactPage.css";
+import { IoLocationOutline } from "react-icons/io5";
+import { IoCallOutline } from "react-icons/io5";
+import { GoClock } from "react-icons/go";
+import { AiOutlineMail } from "react-icons/ai";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -56,11 +60,10 @@ const ContactPage = () => {
         <div className="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            Contact with us, write us a message.
           </p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container info-contact" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
             <div className="col-lg-6">
               <div className="row gy-4">
@@ -70,7 +73,9 @@ const ContactPage = () => {
                     data-aos="fade"
                     data-aos-delay="200"
                   >
-                    <i className="bi bi-geo-alt"></i>
+                    <i className="bi bi-geo-alt">
+                      <IoLocationOutline />
+                    </i>
                     <h3>Address</h3>
                     <p>A108 Adam Street</p>
                     <p>New York, NY 535022</p>
@@ -82,7 +87,9 @@ const ContactPage = () => {
                     data-aos="fade"
                     data-aos-delay="300"
                   >
-                    <i className="bi bi-telephone"></i>
+                    <i className="bi bi-telephone">
+                      <IoCallOutline />
+                    </i>
                     <h3>Call Us</h3>
                     <p>+1 5589 55488 55</p>
                     <p>+1 6678 254445 41</p>
@@ -94,7 +101,9 @@ const ContactPage = () => {
                     data-aos="fade"
                     data-aos-delay="400"
                   >
-                    <i className="bi bi-envelope"></i>
+                    <i className="bi bi-envelope">
+                      <AiOutlineMail />
+                    </i>
                     <h3>Email Us</h3>
                     <p>info@example.com</p>
                     <p>contact@example.com</p>
@@ -106,7 +115,9 @@ const ContactPage = () => {
                     data-aos="fade"
                     data-aos-delay="500"
                   >
-                    <i className="bi bi-clock"></i>
+                    <i className="bi bi-clock">
+                      <GoClock />
+                    </i>
                     <h3>Open Hours</h3>
                     <p>Monday - Friday</p>
                     <p>9:00AM - 05:00PM</p>
