@@ -37,6 +37,10 @@ const GalleryPage = () => {
   return (
     <div className="gallery-container">
       <section id="portfolio" className="portfolio section">
+        <div className="heading">
+          <h5>A Visual Journey Through</h5>
+          <h2>Our Agro-Tourism - VISAVA</h2>
+        </div>
         <div className="container">
           <div
             className="isotope-layout"

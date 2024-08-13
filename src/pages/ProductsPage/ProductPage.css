@@ -1,9 +1,8 @@
-.product-container {
-    position: relative;
-    margin: 0;
-    top: 10rem;
-    bottom: 4rem;
-  }
+.container-products {
+  margin: 0;
+  position: relative;
+  top: 5rem;
+  padding: 2rem;
+}
 
 
-  

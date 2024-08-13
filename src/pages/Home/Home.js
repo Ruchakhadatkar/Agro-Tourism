@@ -12,16 +12,14 @@ import Overview from "../../components/PlanOverview/Overview";
 import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Home = () => {
-  
   return (
     <div className="Home-container">
       <Hero />
       <About />
       <Activity />
       <Explore />
-      <Overview/>
-      <Testimonials/>
-      {/* <Footer /> */}
+      <Overview />
+      <Testimonials />
     </div>
   );
 };
