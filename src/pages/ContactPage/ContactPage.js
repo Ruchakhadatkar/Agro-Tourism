@@ -58,12 +58,14 @@ const ContactPage = () => {
     <div className="contact-container">
       <section id="contact" className="contact section">
         <div className="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>
-            Contact with us, write us a message.
-          </p>
+          <h5>Contact with us, write us a message.</h5>
+          <h2>Contact Us</h2>
         </div>
-        <div className="container info-contact" data-aos="fade-up" data-aos-delay="100">
+        <div
+          className="container info-contact"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <div className="row gy-4">
             <div className="col-lg-6">
               <div className="row gy-4">
@@ -185,7 +187,9 @@ const ContactPage = () => {
                         Your message has been sent. Thank you!
                       </div>
                     )}
-                    <button type="submit" className="send-btn" >Send Message</button>
+                    <button type="submit" className="send-btn">
+                      Send Message
+                    </button>
                   </div>
                 </div>
               </form>

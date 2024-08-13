@@ -16,9 +16,8 @@ const Footer = () => {
                 <span class="sitename">Agro-Tourism</span>
               </a>
               <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus.
+                We are leading in agro tourism in maharashtra for the welfare of
+                farming and increasing knowledge among peoples.
               </p>
               <div class="social-links d-flex mt-4">
                 <a href="">
@@ -89,13 +88,13 @@ const Footer = () => {
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
               <h4>Contact Us</h4>
               <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
+              <p>Maharashtra, India 535022</p>
               <p>United States</p>
               <p class="mt-4">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+                <strong>Phone:</strong> <span>+91 85589 55488</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@example.com</span>
+                <strong>Email:</strong> <span>visava@example.com</span>
               </p>
             </div>
           </div>
@@ -103,7 +102,7 @@ const Footer = () => {
 
         <div class="container copyright text-center mt-4">
           <p>
-            © <span>Copyright</span> <strong class="sitename">Append</strong>{" "}
+            © <span>Copyright</span> <strong class="sitename">Visava</strong>{" "}
             <span>All Rights Reserved</span>
           </p>
           <div class="credits">
@@ -111,7 +110,7 @@ const Footer = () => {
             {/* <!-- You can delete the links only if you've purchased the pro version. --> */}
             {/* <!-- Licensing information: https://bootstrapmade.com/license/ --> */}
             {/* <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] --> */}
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            {/* Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> */}
           </div>
         </div>
       </footer>

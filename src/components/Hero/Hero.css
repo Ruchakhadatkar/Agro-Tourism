@@ -28,10 +28,10 @@
 
 }
 .carousel-3 {
-  background-image: url(../../Assets/Hero/slide_v1_3.jpeg);
+  background-image: url(../../Assets/Hero/swimming-2.jpg);
   /* background-attachment: fixed; */
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 
   background-position: center; /* Center the image horizontally */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -40,7 +40,7 @@
 
 }
 .carousel-4 {
-  background-image: url(../../Assets/Hero/slider-4-7.jpg);
+  background-image: url(../../Assets/Hero/hero-1.jpg);
   /* background-attachment: fixed; */
   width: 100%;
   height: 90vh;

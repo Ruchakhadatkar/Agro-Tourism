@@ -95,22 +95,22 @@
   }
 }
 
-.card-container {
+.container-about .card-container {
   width: 70%;
   margin: 5rem auto;
   visibility: visible;
   margin-bottom: 8rem;
 }
-.card-container .card {
+.container-about .card-container .card {
   background: var(--accent-color);
   color: #ffffff;
   border-radius: 6px;
   opacity: 0.9;
 }
-.card-container:hover .card{
+.container-about .card-container:hover .card{
     opacity: 1;
 }
-.card-container .card-title {
+.container-about .card-container .card-title {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
