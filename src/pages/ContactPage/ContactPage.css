@@ -54,10 +54,10 @@
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   padding: 30px;
   padding-bottom: 11.5rem;
-  height: 50%;
+  height: 68%;
   border-radius: 6px;
   /* position: relative; */
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 
 .contact .php-email-form input[type="text"],
@@ -99,6 +99,7 @@
 
 .contact .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  border: none;
 }
 
 .info-contact {
@@ -140,4 +141,7 @@
 }
 .contact .send-btn{
   margin-top: 18px;
+}
+.contact .pop-up{
+  margin: 5px auto;
 }

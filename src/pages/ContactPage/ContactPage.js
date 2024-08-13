@@ -177,7 +177,7 @@ const ContactPage = () => {
                       onChange={handleChange}
                     ></textarea>
                   </div>
-                  <div className="col-12 text-center">
+                  <div className="col-12 text-center pop-up">
                     {loading && <div className="loading">Loading</div>}
                     {error && <div className="error-message">{error}</div>}
                     {success && (
