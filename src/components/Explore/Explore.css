@@ -1,7 +1,6 @@
 .services-2 {
   overflow: visible;
   margin-bottom: 300px;
-  
 }
 
 .services-2 .section-title {
@@ -179,4 +178,65 @@
 .img-fluid {
   height: 55vh;
   width: 60vw;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .services-2 .section-title p {
+    margin: 2rem auto;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 4px;
+  }
+
+  .img-fluid {
+    max-height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-2 .section-title h2 {
+    font-size: 28px;
+  }
+
+  .services-2 .section-title p {
+    margin: 1.5rem auto;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 4px;
+  }
+
+  .services-2 .navigation-prev,
+  .services-2 .navigation-next {
+    width: 40px;
+    height: 40px;
+  }
+
+  .img-fluid {
+    max-height: 80vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-2 .section-title h2 {
+    font-size: 24px;
+  }
+
+  .services-2 .section-title p {
+    margin: 1rem auto;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 4px;
+  }
+
+  .services-2 .navigation-prev,
+  .services-2 .navigation-next {
+    width: 36px;
+    height: 36px;
+  }
+
+  .img-fluid {
+    max-height: 35vh;
+  }
 }

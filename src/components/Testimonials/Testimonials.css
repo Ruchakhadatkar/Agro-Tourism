@@ -148,3 +148,19 @@
   right: 10px;
   z-index: 10;
 }
+
+@media (max-width: 768px) {
+  .testimonials .info p {
+    font-size: 15px;
+    line-height: 28px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials .info p {
+    font-size: 14px;
+    line-height: 24px;
+    width: 80%;
+  }
+}

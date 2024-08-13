@@ -26,13 +26,20 @@ const Navbar = () => {
       >
         <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
           <a href="/" className="logo d-flex align-items-center">
-            <h1 className="sitename">AgriCulture</h1>
+            <div className="logo-nav">
+              <h1 className="sitename" >VISAVA</h1>
+              <p className="sub-name">agro-tourism</p>
+            </div>
           </a>
 
           <nav id="navmenu" className="navmenu">
             <ul>
               <li>
-                <a href="#home" className="active" onClick={() => handleNavigation("/")}>
+                <a
+                  href="#home"
+                  className="active"
+                  onClick={() => handleNavigation("/")}
+                >
                   Home
                 </a>
               </li>
@@ -42,12 +49,18 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#activities" onClick={() => handleNavigation("/activities")}>
+                <a
+                  href="#activities"
+                  onClick={() => handleNavigation("/activities")}
+                >
                   Activities
                 </a>
               </li>
               <li>
-                <a href="#products" onClick={() => handleNavigation("/products")}>
+                <a
+                  href="#products"
+                  onClick={() => handleNavigation("/products")}
+                >
                   Our Products
                 </a>
               </li>

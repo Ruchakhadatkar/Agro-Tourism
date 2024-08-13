@@ -358,3 +358,10 @@ h6 {
   }
 }
 
+.logo-nav{
+  display: block;
+}
+.logo-nav .sub-name{
+margin-bottom: 2px;
+text-align: center;
+}
