@@ -146,3 +146,10 @@
 .contact .pop-up {
   margin: 5px auto;
 }
+
+@media (max-width: 475px) {
+  .info-contact .contact-icon {
+    width: 80vw;
+    margin: 10px auto;
+  }
+}

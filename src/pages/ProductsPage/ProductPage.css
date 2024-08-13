@@ -154,19 +154,41 @@
   color: #ffffff;
 }
 
+/* @media (max-width: 375px) {
+  .card-icon .cards {
+    width: 60vw;
+    height: 20vh;
+    margin: 0;
+  }
+} */
+
 @media (max-width: 425px) {
   .card-icon .cards {
-    width: 50vw;
+    width: 40vw;
     height: 10vh;
     margin: 0;
+  }
+  .card-icon .card-head {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .card-icon .card-body {
+    padding: 0;
   }
 }
 
 @media (max-width: 768px) {
   .card-icon .cards {
-    width: 80vw;
+    width: 38vw;
     height: 20vh;
     display: flex;
+  }
+  .card-icon .card-head {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .card-icon .card-body {
+    padding: 0;
   }
 }
 
