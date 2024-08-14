@@ -136,11 +136,8 @@
   line-height: 1.2em;
   cursor: pointer;
   text-align: center;
-  /* margin-bottom: 3rem; */
 }
-.card-icon .card-head:hover {
-  color: #ffffff;
-}
+
 .cards .icon {
   font-size: 3.4rem;
   display: flex;
@@ -153,14 +150,6 @@
 .cards:hover .icon {
   color: #ffffff;
 }
-
-/* @media (max-width: 375px) {
-  .card-icon .cards {
-    width: 60vw;
-    height: 20vh;
-    margin: 0;
-  }
-} */
 
 @media (max-width: 425px) {
   .card-icon .cards {
@@ -197,4 +186,8 @@
     /* width: 80vw; */
     height: 30vh;
   }
+}
+
+.card-icon .cards:hover .card-head {
+  color: #ffffff;
 }

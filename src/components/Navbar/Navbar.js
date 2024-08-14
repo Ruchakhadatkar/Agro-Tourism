@@ -2,6 +2,16 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
+import logo1 from "../../Assets/Logo/logo1.jpg"
+import logo2 from "../../Assets/Logo/logo2.jpg"
+import logo3 from "../../Assets/Logo/logo3.jpg"
+import logo4 from "../../Assets/Logo/logo4.png"
+import logo5 from "../../Assets/Logo/logo5.png"
+import logo6 from "../../Assets/Logo/logo6.jpg"
+import logo7 from "../../Assets/Logo/logo7.png"
+import logo8 from "../../Assets/Logo/logo8.png"
+
+
 
 const Navbar = () => {
   const [mobileNavActive, setMobileNavActive] = useState(false);
@@ -13,7 +23,7 @@ const Navbar = () => {
 
   const handleNavigation = (path) => {
     navigate(path);
-    setMobileNavActive(false); // Optionally close mobile nav after navigation
+    setMobileNavActive(false); 
   };
 
   return (
@@ -26,8 +36,9 @@ const Navbar = () => {
       >
         <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
           <a href="/" className="logo d-flex align-items-center">
+              <img src={logo1} alt="logo" className="logo-img" />
             <div className="logo-nav">
-              <h1 className="sitename" >VISAVA</h1>
+              <h1 className="sitename">VISAVA</h1>
               <p className="sub-name">agro-tourism</p>
             </div>
           </a>
@@ -36,7 +47,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <a
-                  href="#home"
+                  href="/"
                   className="active"
                   onClick={() => handleNavigation("/")}
                 >

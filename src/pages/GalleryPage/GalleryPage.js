@@ -3,19 +3,19 @@ import "./GalleryPage.css";
 import { BsZoomIn } from "react-icons/bs";
 import Isotope from "isotope-layout";
 import overview from "../../Assets/overview/Plan-overview.jpg";
-import plan from "../../Assets/about.jpeg";
+import plan from "../../Assets/GalleryPage/about.jpeg";
 import aboutImg1 from "../../Assets/AboutPage/about-1-img-1.jpg";
-import swimmingPool from "../../Assets/swimmingPool.jpg";
+import swimmingPool from "../../Assets/GalleryPage/swimmingPool.jpg";
 import gardening from "../../Assets/Explore/plant-nursery.jpg";
-import milkmachine from "../../Assets/milk-machine.jpg";
-import cows from "../../Assets/from-Cattle-Farming.jpg";
-import safari from "../../Assets/parashar-images-06-1024x576.jpg";
-import dairyProducts from "../../Assets/dairy-products.jpg";
-import organicFarm from "../../Assets/orgainic.jpeg";
-import harvestingInnov from "../../Assets/harvesting.jpg";
-import Greenery from "../../Assets/farm-of-happiness-agro.jpg";
-import Trekking from "../../Assets/trekking-img1.jpeg";
-import Thali from "../../Assets/Maha-thali.jpg";
+import milkmachine from "../../Assets/GalleryPage/milk-machine.jpg";
+import cows from "../../Assets/GalleryPage/from-Cattle-Farming.jpg";
+import safari from "../../Assets/GalleryPage/parashar-images-06-1024x576.jpg";
+import dairyProducts from "../../Assets/GalleryPage/dairy-products.jpg";
+import organicFarm from "../../Assets/GalleryPage/orgainic.jpeg";
+import harvestingInnov from "../../Assets/GalleryPage/harvesting.jpg";
+import Greenery from "../../Assets/GalleryPage/farm-of-happiness-agro.jpg";
+import Trekking from "../../Assets/GalleryPage/trekking-img1.jpeg";
+import Thali from "../../Assets/GalleryPage/Maha-thali.jpg";
 
 const GalleryPage = () => {
   const isotope = useRef();
@@ -40,6 +40,12 @@ const GalleryPage = () => {
         <div className="heading">
           <h5>A Visual Journey Through</h5>
           <h2>Our Agro-Tourism - VISAVA</h2>
+          <p>
+            Explore Visava Agro Tourism through our gallery. Get a sneak peek
+            into the peaceful farm life, vibrant landscapes, and rich
+            traditions. Each image captures the unique experiences that make our
+            destination special.
+          </p>
         </div>
         <div className="container">
           <div
@@ -53,21 +59,14 @@ const GalleryPage = () => {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <li
-                onClick={() => handleFilter("*")}
-                className="filter-active"
-              >
+              <li onClick={() => handleFilter("*")} className="filter-active">
                 All
               </li>
-              <li onClick={() => handleFilter(".filter-about")}>
-                About
-              </li>
+              <li onClick={() => handleFilter(".filter-about")}>About</li>
               <li onClick={() => handleFilter(".filter-product")}>
                 Products & Activities
               </li>
-              <li onClick={() => handleFilter(".filter-farming")}>
-                Farming
-              </li>
+              <li onClick={() => handleFilter(".filter-farming")}>Farming</li>
             </ul>
             {/* End Portfolio Filters */}
             <div
@@ -104,7 +103,11 @@ const GalleryPage = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-about">
-                <img src={aboutImg1} className="img-fluid" alt="About Image 1" />
+                <img
+                  src={aboutImg1}
+                  className="img-fluid"
+                  alt="About Image 1"
+                />
                 <div className="portfolio-info">
                   <h4>Top view</h4>
                   <a
@@ -119,7 +122,11 @@ const GalleryPage = () => {
               </div>
               {/* Repeat similar blocks for each image */}
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                <img src={swimmingPool} className="img-fluid" alt="Swimming Pool" />
+                <img
+                  src={swimmingPool}
+                  className="img-fluid"
+                  alt="Swimming Pool"
+                />
                 <div className="portfolio-info">
                   <h4>Swimming Pool</h4>
                   <a
@@ -147,7 +154,11 @@ const GalleryPage = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
-                <img src={milkmachine} className="img-fluid" alt="Milk Machine" />
+                <img
+                  src={milkmachine}
+                  className="img-fluid"
+                  alt="Milk Machine"
+                />
                 <div className="portfolio-info">
                   <h4>Milk Machine</h4>
                   <a
@@ -189,7 +200,11 @@ const GalleryPage = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                <img src={dairyProducts} className="img-fluid" alt="Dairy Products" />
+                <img
+                  src={dairyProducts}
+                  className="img-fluid"
+                  alt="Dairy Products"
+                />
                 <div className="portfolio-info">
                   <h4>Dairy Products</h4>
                   <a
@@ -203,7 +218,11 @@ const GalleryPage = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
-                <img src={organicFarm} className="img-fluid" alt="Organic Farm" />
+                <img
+                  src={organicFarm}
+                  className="img-fluid"
+                  alt="Organic Farm"
+                />
                 <div className="portfolio-info">
                   <h4>Organic Farming</h4>
                   <a
@@ -217,7 +236,11 @@ const GalleryPage = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-farming">
-                <img src={harvestingInnov} className="img-fluid" alt="Harvesting Innovation" />
+                <img
+                  src={harvestingInnov}
+                  className="img-fluid"
+                  alt="Harvesting Innovation"
+                />
                 <div className="portfolio-info">
                   <h4>Harvesting & Innovation</h4>
                   <a

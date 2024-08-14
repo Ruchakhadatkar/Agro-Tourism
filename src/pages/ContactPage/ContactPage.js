@@ -60,6 +60,11 @@ const ContactPage = () => {
         <div className="container section-title" data-aos="fade-up">
           <h5>Contact with us, write us a message.</h5>
           <h2>Contact Us</h2>
+          <p>
+            Have a question, ready to plan your visit, or simply want to explore
+            the wonders of agro-tourism. We're here to assist you
+            with all the information and support you need.
+          </p>
         </div>
         <div
           className="container info-contact"
