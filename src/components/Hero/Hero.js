@@ -14,19 +14,47 @@ const Hero = () => {
         <div class="carousel-inner">
           <div class="carousel-item active carousel-1" data-bs-interval="3000">
             {/* <img src={Img1} class="d-block w-100" alt="..." /> */}
-            <h1>Slide1</h1>
+            <div className="head-title">
+              <h3>The Best Agro Tourism Farm</h3>
+              <h1>
+                A Beautiful
+                <br />
+                Place
+              </h1>
+            </div>
           </div>
           <div class="carousel-item carousel-2" data-bs-interval="3000">
             {/* <img src={Img2} class="d-block w-100" alt="..." /> */}
-            <h1>Slide2</h1>
+            <div className="head-title">
+              <h3>The Best Agro Tourism Farm</h3>
+              <h1>
+                Experience The
+                <br />
+                Nature Touch
+              </h1>
+            </div>
           </div>
           <div class="carousel-item carousel-3">
             {/* <img src={Img3} class="d-block w-100" data-bs-interval="3000" /> */}
-            <h1>Slide3</h1>
+            <div className="head-title">
+              <h3>The Best Agro Tourism Farm</h3>
+              <h1>
+                Enjoy The
+                <br />
+                Swimming
+              </h1>
+            </div>
           </div>
-          <div class="carousel-item carousel-4" >
+          <div class="carousel-item carousel-4">
             {/* <img src={Img3} class="d-block w-100" data-bs-interval="3000" /> */}
-            <h1>Slide4</h1>
+            <div className="head-title">
+              <h3>The Best Agro Tourism Farm</h3>
+              <h1>
+                Sustainable
+                <br />
+                Cattle Farming
+              </h1>
+            </div>
           </div>
         </div>
         <button

@@ -378,6 +378,6 @@ h6 {
   display: block;
 }
 .logo-nav .sub-name {
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
   text-align: center;
 }
