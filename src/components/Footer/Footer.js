@@ -88,8 +88,8 @@ const Footer = () => {
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
               <h4>Contact Us</h4>
               <p>A108 Adam Street</p>
-              <p>Maharashtra, India 535022</p>
-              <p>United States</p>
+              <p>Pune, Maharashtra </p>
+              <p>India - 535022</p>
               <p class="mt-4">
                 <strong>Phone:</strong> <span>+91 85589 55488</span>
               </p>
