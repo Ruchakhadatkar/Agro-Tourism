@@ -4,6 +4,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
+import { FaArrowUp } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -68,26 +69,26 @@ const Footer = () => {
               <h4>Our Services</h4>
               <ul>
                 <li>
-                  <a href="#">Web Design</a>
+                  <a href="#">Farm Tour</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#">Organic Farming Workshops</a>
                 </li>
                 <li>
-                  <a href="#">Product Management</a>
+                  <a href="#">Outdoor Activities</a>
                 </li>
                 <li>
-                  <a href="#">Marketing</a>
+                  <a href="#">Farm-to-Table Dining</a>
                 </li>
                 <li>
-                  <a href="#">Graphic Design</a>
+                  <a href="#">Accommodation</a>
                 </li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
               <h4>Contact Us</h4>
-              <p>A108 Adam Street</p>
+              <p>A108 phase 1 Street</p>
               <p>Pune, Maharashtra </p>
               <p>India - 535022</p>
               <p class="mt-4">
@@ -121,11 +122,10 @@ const Footer = () => {
         id="scroll-top"
         class="scroll-top d-flex align-items-center justify-content-center"
       >
-        <i class="bi bi-arrow-up-short"></i>
+        <i class="bi bi-arrow-up-short">
+          <FaArrowUp />
+        </i>
       </a>
-
-      {/* <!-- Preloader --> */}
-      {/* <div id="preloader"></div> */}
     </>
   );
 };
