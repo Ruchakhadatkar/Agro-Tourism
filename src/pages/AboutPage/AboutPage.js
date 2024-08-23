@@ -48,7 +48,7 @@ const AboutPage = () => {
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">
-                  20 Official Staff to Serve & Guide to the Journey
+                  20 Official Staff to Guide to the Journey
                 </h5>
               </div>
             </div>
