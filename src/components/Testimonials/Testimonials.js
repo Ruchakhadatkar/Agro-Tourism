@@ -11,7 +11,6 @@ import user3 from "../../Assets/Testimonials/testi-user3.png";
 import user4 from "../../Assets/Testimonials/testt-user4.jpg";
 import user5 from "../../Assets/Testimonials/testi-user5.jpg";
 
-
 const testimonials = [
   {
     name: "Ishika Gokhale",
@@ -101,7 +100,6 @@ const Testimonials = () => {
             className="col-lg-5 info"
             data-aos="fade-up"
             data-aos-delay="100"
-            
           >
             <h5>Reviews</h5>
             <h2>Testimonials</h2>
@@ -138,9 +136,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                   </div>
-                  <p
-                  style={{ textAlign: "center", padding: "1rem" }}
-                  >
+                  <p style={{ textAlign: "center", padding: "1rem" }}>
                     <span>{testimonial.quote}</span>
                   </p>
                 </div>

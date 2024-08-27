@@ -84,6 +84,7 @@
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease-out 0s;
+  cursor: pointer;
 }
 
 .about .icon-box i {
