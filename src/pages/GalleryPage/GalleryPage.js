@@ -120,7 +120,6 @@ const GalleryPage = () => {
                   </a>
                 </div>
               </div>
-              {/* Repeat similar blocks for each image */}
               <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                 <img
                   src={swimmingPool}
