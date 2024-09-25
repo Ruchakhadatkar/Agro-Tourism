@@ -192,3 +192,6 @@
   color: #ffffff;
 }
 
+.card-body .card-icon{
+  margin: 0;
+}
