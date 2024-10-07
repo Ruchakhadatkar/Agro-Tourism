@@ -120,7 +120,7 @@
 }
 .card-icon .cards {
   width: 12rem;
-  height: 26vh;
+  height: 29vh;
   padding: 20px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
 }
@@ -136,6 +136,7 @@
   line-height: 1.2em;
   cursor: pointer;
   text-align: center;
+  /* margin-bottom: 10rem; */
 }
 
 .cards .icon {
@@ -143,7 +144,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-top: 0px;
+  margin-bottom: 1rem;
   transition: all 0.4s ease-out 0s;
   color: var(--accent-color);
 }
