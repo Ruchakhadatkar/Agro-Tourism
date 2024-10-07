@@ -87,6 +87,9 @@
 .info-container {
   margin-bottom: 5rem;
 }
+.info-container .heading{
+  margin-top: 6rem;
+}
 .info-container .para {
   margin: 0rem auto;
   font-family: var(--thm-font);
