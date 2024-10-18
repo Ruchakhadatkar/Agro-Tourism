@@ -57,7 +57,7 @@ const ProductPage = () => {
       </div>
       <div className="info-container">
         <div className="heading">
-          <h5>Our Benefits </h5>
+          {/* <h5>Our Benefits </h5> */}
           <h2 className="head">Agriculture & Eco Farming</h2>
           <p className="para">
             This form of tourism helps one stay with the farmer, engage oneself
