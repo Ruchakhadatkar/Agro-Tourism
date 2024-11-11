@@ -62,7 +62,7 @@ const ProductPage = () => {
           <p className="para">
             This form of tourism helps one stay with the farmer, engage oneself
             in farming activities, and eat authentic food. It involves staying
-            in a farmhouse or separate guest house which will provide meals,
+            in a farmhouse or separate guest house which will provide tasty meals,
             organize activities involving observing and participating in farming
             operations. It is a leisure activity in an agricultural environment
             with an opportunity to help farming while staying.
